@@ -145,7 +145,7 @@ export default function TV() {
   return (
     <div className="relative h-screen w-screen overflow-hidden bg-black">
       <LiquidMetalBackground />
-      <div className="fixed inset-0 z-[5] bg-black/60" />
+      <div className="fixed inset-0 z-[5] bg-black/65" />
 
       <div className="relative z-10 h-full w-full">
         {/* Прогресс-бар */}
