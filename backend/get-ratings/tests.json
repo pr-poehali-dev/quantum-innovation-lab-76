@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Get ratings",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"ratings": []},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

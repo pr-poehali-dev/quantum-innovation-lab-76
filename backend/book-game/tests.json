@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Book game",
+      "method": "POST",
+      "path": "/",
+      "body": {"game_id": 1, "user_id": 1, "action": "book"},
+      "expectedStatus": 200,
+      "expectedBody": {"success": true},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

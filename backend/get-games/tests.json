@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Get games list",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"games": []},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
