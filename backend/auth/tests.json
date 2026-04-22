@@ -9,5 +9,16 @@
       "expectedBody": {"is_new": false},
       "bodyMatcher": "partial"
     }
+  ],
+  "tests2": [
+    {
+      "name": "Admin get users",
+      "method": "GET",
+      "path": "/?action=users",
+      "headers": {"X-Admin-Key": "admin123"},
+      "expectedStatus": 200,
+      "expectedBody": {"users": []},
+      "bodyMatcher": "partial"
+    }
   ]
 }
