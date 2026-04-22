@@ -1,4 +1,5 @@
 {
+  "auth": "https://functions.poehali.dev/ddb63c27-ea26-436f-83c3-8ddd1c630084",
   "book-game": "https://functions.poehali.dev/bd53f458-c6fe-4c3d-8125-91df249a17f5",
   "complete-task": "https://functions.poehali.dev/c973d16e-327c-4109-bcb8-9bb01f6d3f90",
   "get-ratings": "https://functions.poehali.dev/aa0c42df-4a4d-4822-93e9-8132faf63097",
